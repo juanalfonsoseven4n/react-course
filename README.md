@@ -86,7 +86,7 @@ React Router pre-v4 was also static (mostly).
 
 React Router has been broken into three packages: react-router(almost never), react-router-dom (Web), and react-router-native (Native).
 
-npm install react-router-dom
+`npm install react-router-dom`
 
 
 ### Using
