@@ -75,12 +75,12 @@ Is the component used in React to manage the navigation
 
 ### History
 
-#### Static Routing Routers you declare your routes as part of your app’s initialization before any rendering takes place
-
-React Router pre-v4 was also static (mostly). 
+#### Static Routing Routers
+You declare your routes as part of your app’s initialization before any rendering takes place
+React Router pre-v4 was also static (mostly).
 
 #### Dynamic Routing
- takes place as your app is rendering, not in a configuration or convention outside of a running app
+It takes place as your app is rendering, not in a configuration or convention outside of a running app
 
 ### Installation
 
