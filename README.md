@@ -66,3 +66,38 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+##React Router Version 4
+
+###History
+
+####Static Routing Routers you declare your routes as part of your app’s initialization before any rendering takes place
+
+React Router pre-v4 was also static (mostly). 
+
+####Dynamic Routing
+ takes place as your app is rendering, not in a configuration or convention outside of a running app
+
+###Installation
+
+React Router has been broken into three packages: react-router(almost never), react-router-dom (Web), and react-router-native (Native).
+
+npm install react-router-dom
+
+
+
+###Using
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+
+Enclosing between Router 
+<Router></Router>
+Important, Router components only expect to receive a single child element. 
+
+Adding
+<Route path="/my-url/" component={Mycomponent} />
+Add "exact" if only want to match '/my-url'
+	
+Using from Link elements
+<Link to="/my-url">MyComponent</Link>
